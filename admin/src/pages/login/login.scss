@@ -1,0 +1,88 @@
+// body {
+//     margin: 0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     min-height: 100vh;
+//     background-color: #f0f0f0;
+// }
+.Container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://images.unsplash.com/photo-1511168883051-554a896af26b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2485&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+
+.login {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    text-align: center;
+    margin: 0;
+    width: 400px;
+    height: 400px;
+  
+
+}
+
+.login h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.login h6 {
+ font-size: 12px;
+ color: #0059a6;
+}
+
+.lContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px
+}
+
+.lInput {
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.lButton {
+    border: none;
+    padding: 12px 24px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.lButton:disabled {
+    background-color: #0071c28c;
+    cursor: not-allowed;
+}
+
+.lButton:hover {
+    background-color: #0059a6;
+}
+
+.error {
+    color: #ff3333;
+    margin-top: 10px;
+}
